@@ -1,4 +1,11 @@
 # Auction Code by Alan Jaison for ThoughtMachine
+
+#class for each auction item:
+class Item:
+  def __init__(self, name, price):
+    self.name = name
+    self.price = price
+
 def test_method3(z):
     a = 20
     b = 21
@@ -25,6 +32,11 @@ def print_hi(name):
         if (new_list[0][2] == 'SELL'):
             #here create a new object
             print('print statement')
+
+        p1 = Item("Chair", 36)
+
+        print(p1.name)
+        print(p1.price)
 
 
 # Press the green button in the gutter to run the script.
