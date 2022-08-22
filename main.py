@@ -60,7 +60,7 @@ def print_hi(name):
             i = i + 1
             #here create a new object
         #    print('print statement')
-#test5
+#test6
         #info = Item()
         #auction_items.append(Item(line=new_list[0]))
         #uction_items.append(Item(line=new_list[3]))
