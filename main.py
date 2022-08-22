@@ -1,6 +1,6 @@
 # Auction Code by Alan Jaison for ThoughtMachine
 
-#class for each auction item:
+#class for each auction items:
 class Item:   #self, close_time, name, user_id, status, price_paid, total_bid_count, highest_bid, lowest_bid
     def __init__(self, line):
         self.name = line[3]
